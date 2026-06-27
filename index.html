@@ -7,6 +7,95 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    
+    <div class="w-full min-h-screen bg-gray-50 font-sans text-gray-800 selection:bg-green-200">
+  <header class="max-w-7xl mx-auto px-4 py-4">
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-100 pb-4">
+      
+      <div class="flex items-center gap-3">
+        <div class="relative w-[100px] h-10 flex items-center justify-center ">
+          <div class="absolute inset-1 "><img src="./src/images/logo.png" alt=""></div>
+        </div>
+        <div>
+          <div class="text-[10px] text-gray-500 mt-1 leading-tight">Качественные детали и узлы<br/>для сельскохозяйственной техники</div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-6 text-sm">
+        <a href="tel:88005057232" class="flex items-center gap-2 hover:text-green-600 transition">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <div>
+            <span class="text-[11px] block text-gray-400 leading-none">звонок бесплатный</span>
+            <span class="font-bold whitespace-nowrap text-base">8 800 505 72 32</span>
+          </div>
+        </a>
+
+        <a href="mailto:info@kd-grupp.com" class="flex items-center gap-2 hover:text-green-600 transition">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <div>
+            <span class="text-[11px] block text-gray-400 leading-none text-right md:text-left">отвечаем быстро</span>
+            <span class="font-semibold text-gray-700">info@kd-grupp.com</span>
+          </div>
+        </a>
+
+        <div class="flex items-center gap-2">
+          <a href="#" class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm "><img src="./Vector (26).png" alt=""></a>
+          <a href="#" class="h-8 px-3 rounded-full bg-green-500 text-white flex items-center gap-1.5 text-xs font-semibold  ">
+            <span>WhatsApp</span>
+          </a>
+          <a href="#" class="h-8 px-3 rounded-full bg-sky-500 text-white flex items-center gap-1.5 text-xs font-semibold ">
+            <span>Telegram</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mt-4">
+      <nav class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-bold uppercase tracking-wider text-gray-700">
+        <a href="#" class="text-green-600 border-b-2 border-green-600 pb-1">Главная</a>
+        <a href="#" class="hover:text-green-600 transition pb-1 flex items-center gap-1">Каталог <span class="text-[10px]">▼</span></a>
+        <a href="#" class="hover:text-green-600 transition pb-1">О нас</a>
+        <a href="#" class="hover:text-green-600 transition pb-1">Новости</a>
+        <a href="#" class="hover:text-green-600 transition pb-1">Партнеры</a>
+        <a href="#" class="hover:text-green-600 transition pb-1">Контакты</a>
+      </nav>
+
+      <div class="relative w-full md:w-64">
+        <input type="text" placeholder="поиск по каталогу" class="w-full bg-gray-100 text-sm pl-4 pr-10 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-green-500 transition placeholder-gray-400">
+        <span class="absolute right-3 top-2.5 text-gray-400"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </span>
+      </div>
+    </div>
+  </header>
+  <main class="max-w-7xl mx-auto px-4 mt-4 relative pb-10">
+    <div class="relative rounded-[2rem] overflow-hidden bg-gradient-to-br from-green-800 to-emerald-900 text-white min-h-[420px] flex items-center p-8 md:p-16">
+      
+      <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+
+      <div class="relative z-10 grid md:grid-cols-2 gap-8 items-center w-full">
+        <div class="space-y-6 max-w-xl">
+          <h1 class="text-2xl md:text-4xl font-bold leading-tight tracking-wide">
+            Бренд MEDO - российское производство транспортных лент, прутковых транспортеров для сельхозтехники по уборке урожая овощных культур
+          </h1>
+          <button class="bg-white text-gray-800 font-bold px-8 py-3.5 rounded-full shadow-md hover:shadow-lg transition transform active:scale-95 text-xs tracking-wider uppercase">
+            Оставить заявку
+          </button>
+        </div>
+
+        <div class="flex justify-center md:justify-end items-center">
+          <div class="relative max-w-md w-full drop-shadow-2xl p-4 rounded-2xl border border-white/5 backdrop-blur-xs">
+            <img src="./src/images/razor.png" alt="" class="rounded-xl object-cover aspect-video w-full brightness-90 mix-blend-lighten">
+            <div class="absolute inset-0 flex items-center justify-center text-xs text-white/80 font-mono tracking-widest uppercase rounded-xl"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20">
+      <button class="w-10 h-10 rounded-full bg-emerald-800  text-white flex items-center justify-center shadow-lg border border-emerald-600/50">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+      </button>
+    </div>
+  </main>
+</div>
 </body>
 </html>
